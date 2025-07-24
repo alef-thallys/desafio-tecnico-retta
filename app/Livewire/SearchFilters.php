@@ -31,6 +31,6 @@ class SearchFilters extends Component
 
     public function render()
     {
-        return view('livewire.search-filters');
+        return view('livewire.search-deputados-filters');
     }
 }
