@@ -35,7 +35,8 @@ class DeputadosList extends Component
             })
             ->when($this->partido, function ($query) {
                 $query->where('sigla_partido', $this->partido);
-            })->paginate(12);
+            })
+            ->orderBy("nome")->paginate(20);
 
         return view('livewire.deputados-list', [
             'deputados' => $deputados,

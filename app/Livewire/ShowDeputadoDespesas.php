@@ -21,6 +21,7 @@ class ShowDeputadoDespesas extends Component
 
     public function render()
     {
-        return view('livewire.show-deputado-despesas');
+        return view('livewire.show-deputado-despesas')
+            ->layout('components.layouts.app', ['title' => 'Despesas de ' . $this->deputado->nome]);
     }
 }
