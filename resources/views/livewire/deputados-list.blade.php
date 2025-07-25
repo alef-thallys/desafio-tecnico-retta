@@ -20,7 +20,7 @@
                 <a href="{{ route('deputado.despesas', $deputado) }}"
                    wire:navigate
                    class="mt-4 w-full px-1 py-2 text-sm font-semibold bg-indigo-600 hover:bg-indigo-700 text-white rounded-md transition-colors">
-                    Ver Despesas
+                    Ver mais
                 </a>
             </div>
         @empty

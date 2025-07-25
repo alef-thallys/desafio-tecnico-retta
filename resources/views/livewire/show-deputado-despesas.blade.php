@@ -23,6 +23,10 @@
     </div>
 
     <div class="my-8">
+        @livewire('show-deputado-info', ['deputadoId' => $deputado->id], key('info-' . $deputado->id))
+    </div>
+
+    <div class="my-8">
         @livewire('search-despesas-filters', ['deputadoId' => $deputado->id], key($deputado->id))
     </div>
 
