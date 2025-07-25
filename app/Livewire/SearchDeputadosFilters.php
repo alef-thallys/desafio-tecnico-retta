@@ -5,7 +5,7 @@ namespace App\Livewire;
 use App\Models\Deputado;
 use Livewire\Component;
 
-class SearchFilters extends Component
+class SearchDeputadosFilters extends Component
 {
     public string $busca = '';
     public string $uf = '';
