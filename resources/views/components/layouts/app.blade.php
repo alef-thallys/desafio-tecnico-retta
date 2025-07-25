@@ -15,7 +15,7 @@
 <div class="min-h-screen">
     <header class="bg-white dark:bg-gray-800 shadow">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">
+            <h1 class="text-xl font-bold text-gray-900 dark:text-white">
                 Análise de Despesas Parlamentares
             </h1>
         </div>
